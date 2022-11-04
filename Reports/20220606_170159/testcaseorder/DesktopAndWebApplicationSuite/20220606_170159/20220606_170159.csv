@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DesktopAndWebApplicationSuite,Chrome 102.0.5005.63,,,2022-06-06 17:02:09,2022-06-06 17:05:08,2m - 59.368s,PASSED
+,,,,,,,
+Test Cases/DesktopAndWebApplication/Orderdesktopapp,Chrome 102.0.5005.63,,,2022-06-06 17:02:09,2022-06-06 17:02:51,41.338s,PASSED
+"startApplicationWithTitle(""C:\Users\AjayBezawada\Documents\UiPath\Desktop_OrderScenarios_Library\.settings\APK File\Orders.exe"", ""Orders"")",Chrome 102.0.5005.63,,,2022-06-06 17:02:10,2022-06-06 17:02:11,1.166s,PASSED
+"click(findWindowsObject(""Object Repository/New Order Button""))",Chrome 102.0.5005.63,,,2022-06-06 17:02:11,2022-06-06 17:02:12,0.882s,PASSED
+"click(findWindowsObject(""Object Repository/Customer Name""))",Chrome 102.0.5005.63,,,2022-06-06 17:02:12,2022-06-06 17:02:13,1.092s,PASSED
+"setText(findWindowsObject(""Object Repository/Customer Name""), Customer)",Chrome 102.0.5005.63,,,2022-06-06 17:02:13,2022-06-06 17:02:17,3.506s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/DesktopApplication/NameCheckpoint""), false)",Chrome 102.0.5005.63,,,2022-06-06 17:02:17,2022-06-06 17:02:17,0.636s,PASSED
+"setText(findWindowsObject(""Object Repository/Streetname""), Street)",Chrome 102.0.5005.63,,,2022-06-06 17:02:17,2022-06-06 17:02:22,4.281s,PASSED
+"verifyMatch(""73668 East Daniels Way"", ""73668 East Daniels Way"", false)",Chrome 102.0.5005.63,,,2022-06-06 17:02:22,2022-06-06 17:02:22,0.013s,PASSED
+"click(findWindowsObject(""Object Repository/City Name""))",Chrome 102.0.5005.63,,,2022-06-06 17:02:22,2022-06-06 17:02:23,1.290s,PASSED
+"setText(findWindowsObject(""Object Repository/City Name""), City)",Chrome 102.0.5005.63,,,2022-06-06 17:02:23,2022-06-06 17:02:26,3.367s,PASSED
+"verifyMatch(""Thousands Oaks"", ""Thousands Oaks"", false)",Chrome 102.0.5005.63,,,2022-06-06 17:02:26,2022-06-06 17:02:26,0.003s,PASSED
+"setText(findWindowsObject(""Object Repository/State Name""), State)",Chrome 102.0.5005.63,,,2022-06-06 17:02:26,2022-06-06 17:02:29,2.627s,PASSED
+"verifyMatch(""NE"", ""NE"", false)",Chrome 102.0.5005.63,,,2022-06-06 17:02:29,2022-06-06 17:02:29,0.002s,PASSED
+"setText(findWindowsObject(""Object Repository/Zip code""), zip)",Chrome 102.0.5005.63,,,2022-06-06 17:02:29,2022-06-06 17:02:32,3.120s,PASSED
+"verifyMatch(""6842"", ""6842"", false)",Chrome 102.0.5005.63,,,2022-06-06 17:02:32,2022-06-06 17:02:32,0.002s,PASSED
+"click(findWindowsObject(""Object Repository/Select CardName""))",Chrome 102.0.5005.63,,,2022-06-06 17:02:32,2022-06-06 17:02:33,0.620s,PASSED
+"setText(findWindowsObject(""Object Repository/CardNumber""), CardNo)",Chrome 102.0.5005.63,,,2022-06-06 17:02:33,2022-06-06 17:02:36,3.227s,PASSED
+"verifyMatch(""1330019087"", ""1330019087"", false)",Chrome 102.0.5005.63,,,2022-06-06 17:02:36,2022-06-06 17:02:36,0.003s,PASSED
+"setText(findWindowsObject(""Object Repository/ExpiryDateOfCard""), ExpDate)",Chrome 102.0.5005.63,,,2022-06-06 17:02:36,2022-06-06 17:02:40,3.613s,PASSED
+"verifyMatch(""01/01/2023"", ""01/01/2023"", false)",Chrome 102.0.5005.63,,,2022-06-06 17:02:40,2022-06-06 17:02:40,0.002s,PASSED
+"click(findWindowsObject(""Ok Button""))",Chrome 102.0.5005.63,,,2022-06-06 17:02:40,2022-06-06 17:02:40,0.464s,PASSED
+"click(findWindowsObject(""Edit OrderButton""))",Chrome 102.0.5005.63,,,2022-06-06 17:02:40,2022-06-06 17:02:41,0.922s,PASSED
+"click(findWindowsObject(""Object Repository/Click CustomerName""))",Chrome 102.0.5005.63,,,2022-06-06 17:02:41,2022-06-06 17:02:42,1.290s,PASSED
+"clearText(findWindowsObject(""Object Repository/Edit CustomerName""))",Chrome 102.0.5005.63,,,2022-06-06 17:02:42,2022-06-06 17:02:44,1.508s,PASSED
+"setText(findWindowsObject(""Object Repository/Edit CustomerName""), Edit_Customer)",Chrome 102.0.5005.63,,,2022-06-06 17:02:44,2022-06-06 17:02:48,3.767s,PASSED
+"verifyMatch(""Kristen"", ""Kristen"", false)",Chrome 102.0.5005.63,,,2022-06-06 17:02:48,2022-06-06 17:02:48,0.003s,PASSED
+"click(findWindowsObject(""Ok Button""))",Chrome 102.0.5005.63,,,2022-06-06 17:02:48,2022-06-06 17:02:48,0.459s,PASSED
+"click(findWindowsObject(""Delete Button""))",Chrome 102.0.5005.63,,,2022-06-06 17:02:48,2022-06-06 17:02:49,0.959s,PASSED
+"click(findWindowsObject(""Confirmation page""))",Chrome 102.0.5005.63,,,2022-06-06 17:02:49,2022-06-06 17:02:49,0.370s,PASSED
+"click(findWindowsObject(""Yes Button""))",Chrome 102.0.5005.63,,,2022-06-06 17:02:49,2022-06-06 17:02:50,0.467s,PASSED
+"click(findWindowsObject(""Close application Button""))",Chrome 102.0.5005.63,,,2022-06-06 17:02:50,2022-06-06 17:02:50,0.511s,PASSED
+"click(findWindowsObject(""No Button""))",Chrome 102.0.5005.63,,,2022-06-06 17:02:50,2022-06-06 17:02:51,0.462s,PASSED
+,,,,,,,
+Test Cases/DesktopAndWebApplication/Amazonwebtc,Chrome 102.0.5005.63,,,2022-06-06 17:02:51,2022-06-06 17:04:48,1m - 57.056s,PASSED
+"openBrowser("""")",Chrome 102.0.5005.63,,,2022-06-06 17:02:51,2022-06-06 17:02:53,2.261s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 102.0.5005.63,,,2022-06-06 17:02:53,2022-06-06 17:02:58,4.289s,PASSED
+maximizeWindow(),Chrome 102.0.5005.63,,,2022-06-06 17:02:58,2022-06-06 17:02:58,0.155s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon.com. Spend less. Smile more/a_Hello, Sign in  Account  Lists""))",Chrome 102.0.5005.63,,,2022-06-06 17:02:58,2022-06-06 17:03:00,1.848s,PASSED
+"setText(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Email or mobile phone number_email""), Username)",Chrome 102.0.5005.63,,,2022-06-06 17:03:00,2022-06-06 17:03:02,1.816s,PASSED
+"verifyMatch(Username, Username, false)",Chrome 102.0.5005.63,,,2022-06-06 17:03:02,2022-06-06 17:03:02,0.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 102.0.5005.63,,,2022-06-06 17:03:02,2022-06-06 17:03:03,1.431s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Forgot your password_password""), Password)",Chrome 102.0.5005.63,,,2022-06-06 17:03:03,2022-06-06 17:03:04,0.979s,PASSED
+"verifyMatch(Password, Password, false)",Chrome 102.0.5005.63,,,2022-06-06 17:03:04,2022-06-06 17:03:04,0.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/div_Please Enable Cookies to Continue      _8c8bcd""))",Chrome 102.0.5005.63,,,2022-06-06 17:03:04,2022-06-06 17:03:04,0.478s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/div_Sign-In                      testingtx2_9ecf4f""))",Chrome 102.0.5005.63,,,2022-06-06 17:03:04,2022-06-06 17:03:05,0.374s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 102.0.5005.63,,,2022-06-06 17:03:05,2022-06-06 17:03:05,0.396s,PASSED
+"setText(findTestObject(""Object Repository/Page_Amazon.com. Spend less. Smile more/input_All_field-keywords""), BookName)",Chrome 102.0.5005.63,,,2022-06-06 17:03:05,2022-06-06 17:03:50,45.159s,PASSED
+"verifyMatch(BookName, BookName, false)",Chrome 102.0.5005.63,,,2022-06-06 17:03:50,2022-06-06 17:03:50,0.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon.com. Spend less. Smile more/input_All_nav-search-submit-button""))",Chrome 102.0.5005.63,,,2022-06-06 17:03:50,2022-06-06 17:03:56,5.571s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon.com  Alchemist/img_Best Seller_s-image""))",Chrome 102.0.5005.63,,,2022-06-06 17:03:56,2022-06-06 17:04:32,36.240s,PASSED
+"click(findTestObject(""Object Repository/Page_The Alchemist, 25th Anniversary A Fabl_ebcfbb/input_Shipping cost, delivery date, and ord_223673""))",Chrome 102.0.5005.63,,,2022-06-06 17:04:32,2022-06-06 17:04:38,6.101s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon.com Shopping Cart/span_Orders_nav-cart-icon nav-sprite""))",Chrome 102.0.5005.63,,,2022-06-06 17:04:38,2022-06-06 17:04:43,4.497s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon.com Shopping Cart/i_View fullhistory_hm-icon nav-sprite""))",Chrome 102.0.5005.63,,,2022-06-06 17:04:43,2022-06-06 17:04:44,1.075s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon.com Shopping Cart/a_Sign Out""))",Chrome 102.0.5005.63,,,2022-06-06 17:04:44,2022-06-06 17:04:47,3.024s,PASSED
+closeBrowser(),Chrome 102.0.5005.63,,,2022-06-06 17:04:47,2022-06-06 17:04:48,0.916s,PASSED
+,,,,,,,
+Test Cases/DesktopAndWebApplication/NegativeAmazonScenario,Chrome 102.0.5005.63,,,2022-06-06 17:04:48,2022-06-06 17:05:06,18.002s,PASSED
+"openBrowser("""")",Chrome 102.0.5005.63,,,2022-06-06 17:04:48,2022-06-06 17:04:50,1.863s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 102.0.5005.63,,,2022-06-06 17:04:50,2022-06-06 17:04:55,4.381s,PASSED
+maximizeWindow(),Chrome 102.0.5005.63,,,2022-06-06 17:04:55,2022-06-06 17:04:55,0.146s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon.com. Spend less. Smile more/span_Hello, Sign in""))",Chrome 102.0.5005.63,,,2022-06-06 17:04:55,2022-06-06 17:04:58,3.013s,PASSED
+"setText(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Email or mobile phone number_email""), Username)",Chrome 102.0.5005.63,,,2022-06-06 17:04:58,2022-06-06 17:04:59,1.510s,PASSED
+"verifyMatch(""Damco2020@gmail.com"", ""Damco2020@gmail.com"", false)",Chrome 102.0.5005.63,,,2022-06-06 17:04:59,2022-06-06 17:04:59,0.001s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/div_Sign-In                                _f074ba""))",Chrome 102.0.5005.63,,,2022-06-06 17:04:59,2022-06-06 17:05:01,1.706s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 102.0.5005.63,,,2022-06-06 17:05:01,2022-06-06 17:05:03,2.406s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/div_There was a problem                    _7720a7""))",Chrome 102.0.5005.63,,,2022-06-06 17:05:03,2022-06-06 17:05:04,1.016s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/li_We cannot find an account with that emai_8890fc""))",Chrome 102.0.5005.63,,,2022-06-06 17:05:04,2022-06-06 17:05:05,0.480s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/div_There was a problem                    _7720a7""))",Chrome 102.0.5005.63,,,2022-06-06 17:05:05,2022-06-06 17:05:05,0.410s,PASSED
+closeBrowser(),Chrome 102.0.5005.63,,,2022-06-06 17:05:05,2022-06-06 17:05:06,0.688s,PASSED
+,,,,,,,
+Test Cases/DesktopAndWebApplication/ApiTest,Chrome 102.0.5005.63,,,2022-06-06 17:05:06,2022-06-06 17:05:08,2.388s,PASSED
+"response = sendRequest(findTestObject(""API""))",Chrome 102.0.5005.63,,,2022-06-06 17:05:06,2022-06-06 17:05:08,1.461s,PASSED
+"sendRequestAndVerify(findTestObject(""API""))",Chrome 102.0.5005.63,,,2022-06-06 17:05:08,2022-06-06 17:05:08,0.564s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 102.0.5005.63,,,2022-06-06 17:05:08,2022-06-06 17:05:08,0.010s,PASSED

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ordertestsuite" time="54.401" tests="1" failures="0" errors="0">
+   <testsuite name="ordertestsuite" tests="1" failures="0" errors="0" time="54.401" skipped="0" timestamp="2022-06-01 20:21:20" hostname="Testing - TXHYD-PC-02.testingxperts.loc" id="Test Suites/testcaseorder/ordertestsuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AjayBezawada\\Katalon Studio\\My First Web UI Project\\Reports\\20220601_202110\\testcaseorder\\ordertestsuite\\20220601_202110"/>
+         <property name="logFiles" value="C:\\Users\\AjayBezawada\\Katalon Studio\\My First Web UI Project\\Reports\\20220601_202110\\testcaseorder\\ordertestsuite\\20220601_202110\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Testing - TXHYD-PC-02.testingxperts.loc"/>
+         <property name="hostAddress" value="172.16.3.53"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+      </properties>
+      <testcase name="Test Cases/DesktopApplication/Orderdesktopapp" time="53.898" classname="Test Cases/DesktopApplication/Orderdesktopapp" status="PASSED">
+         <system-out><![CDATA[2022-06-01 20:21:21 - [TEST_CASE][PASSED] - Test Cases/DesktopApplication/Orderdesktopapp: Test Cases/DesktopApplication/Orderdesktopapp
+
+2022-06-01 20:21:21 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Users\AjayBezawada\Documents\UiPath\Desktop_OrderScenarios_Library\.settings\APK File\Orders.exe", "Orders"): The application at location: C:\Users\AjayBezawada\Documents\UiPath\Desktop_OrderScenarios_Library\.settings\APK File\Orders.exe started.
+
+2022-06-01 20:21:21 - [MESSAGE][INFO] - Starting application C:\Users\AjayBezawada\Documents\UiPath\Desktop_OrderScenarios_Library\.settings\APK File\Orders.exe on the local machine at address http://127.0.0.1:4723
+
+2022-06-01 20:21:23 - [MESSAGE][PASSED] - The application at location: C:\Users\AjayBezawada\Documents\UiPath\Desktop_OrderScenarios_Library\.settings\APK File\Orders.exe started.
+
+2022-06-01 20:21:23 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/New Order Button")): Click on element: Object Repository/New Order Button succesfully
+
+2022-06-01 20:21:23 - [MESSAGE][INFO] - Clicking on element: Object Repository/New Order Button
+
+2022-06-01 20:21:24 - [MESSAGE][PASSED] - Click on element: Object Repository/New Order Button succesfully
+
+2022-06-01 20:21:24 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Customer Name")): Click on element: Object Repository/Customer Name succesfully
+
+2022-06-01 20:21:25 - [MESSAGE][INFO] - Clicking on element: Object Repository/Customer Name
+
+2022-06-01 20:21:25 - [MESSAGE][PASSED] - Click on element: Object Repository/Customer Name succesfully
+
+2022-06-01 20:21:25 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Customer Name"), Customer): Text Kenyon Stuart is set
+
+2022-06-01 20:21:30 - [MESSAGE][PASSED] - Text Kenyon Stuart is set
+
+2022-06-01 20:21:30 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/DesktopApplication/NameCheckpoint"), false): Checkpoint data and Source data are matched
+
+2022-06-01 20:21:30 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+2022-06-01 20:21:30 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Streetname"), Street): Text 73668 East Daniels Way is set
+
+2022-06-01 20:21:35 - [MESSAGE][PASSED] - Text 73668 East Daniels Way is set
+
+2022-06-01 20:21:35 - [TEST_STEP][PASSED] - verifyMatch("73668 East Daniels Way", "73668 East Daniels Way", false): Actual text '73668 East Daniels Way' and expected text '73668 East Daniels Way' are matched 
+
+2022-06-01 20:21:35 - [MESSAGE][PASSED] - Actual text '73668 East Daniels Way' and expected text '73668 East Daniels Way' are matched 
+
+2022-06-01 20:21:35 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/City Name")): Click on element: Object Repository/City Name succesfully
+
+2022-06-01 20:21:37 - [MESSAGE][INFO] - Clicking on element: Object Repository/City Name
+
+2022-06-01 20:21:37 - [MESSAGE][PASSED] - Click on element: Object Repository/City Name succesfully
+
+2022-06-01 20:21:37 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/City Name"), City): Text Thousand Oaks is set
+
+2022-06-01 20:21:41 - [MESSAGE][PASSED] - Text Thousand Oaks is set
+
+2022-06-01 20:21:41 - [TEST_STEP][PASSED] - verifyMatch("Thousands Oaks", "Thousands Oaks", false): Actual text 'Thousands Oaks' and expected text 'Thousands Oaks' are matched 
+
+2022-06-01 20:21:41 - [MESSAGE][PASSED] - Actual text 'Thousands Oaks' and expected text 'Thousands Oaks' are matched 
+
+2022-06-01 20:21:41 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/State Name"), State): Text NE is set
+
+2022-06-01 20:21:46 - [MESSAGE][PASSED] - Text NE is set
+
+2022-06-01 20:21:46 - [TEST_STEP][PASSED] - verifyMatch("NE", "NE", false): Actual text 'NE' and expected text 'NE' are matched 
+
+2022-06-01 20:21:46 - [MESSAGE][PASSED] - Actual text 'NE' and expected text 'NE' are matched 
+
+2022-06-01 20:21:46 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Zip code"), zip): Text 6842 is set
+
+2022-06-01 20:21:50 - [MESSAGE][PASSED] - Text 6842 is set
+
+2022-06-01 20:21:50 - [TEST_STEP][PASSED] - verifyMatch("6842", "6842", false): Actual text '6842' and expected text '6842' are matched 
+
+2022-06-01 20:21:50 - [MESSAGE][PASSED] - Actual text '6842' and expected text '6842' are matched 
+
+2022-06-01 20:21:50 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Select CardName")): Click on element: Object Repository/Select CardName succesfully
+
+2022-06-01 20:21:50 - [MESSAGE][INFO] - Clicking on element: Object Repository/Select CardName
+
+2022-06-01 20:21:51 - [MESSAGE][PASSED] - Click on element: Object Repository/Select CardName succesfully
+
+2022-06-01 20:21:51 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/CardNumber"), CardNo): Text 1330019087 is set
+
+2022-06-01 20:21:56 - [MESSAGE][PASSED] - Text 1330019087 is set
+
+2022-06-01 20:21:56 - [TEST_STEP][PASSED] - verifyMatch("1330019087", "1330019087", false): Actual text '1330019087' and expected text '1330019087' are matched 
+
+2022-06-01 20:21:56 - [MESSAGE][PASSED] - Actual text '1330019087' and expected text '1330019087' are matched 
+
+2022-06-01 20:21:56 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/ExpiryDateOfCard"), ExpDate): Text 01/01/2023 is set
+
+2022-06-01 20:22:00 - [MESSAGE][PASSED] - Text 01/01/2023 is set
+
+2022-06-01 20:22:00 - [TEST_STEP][PASSED] - verifyMatch("01/01/2023", "01/01/2023", false): Actual text '01/01/2023' and expected text '01/01/2023' are matched 
+
+2022-06-01 20:22:00 - [MESSAGE][PASSED] - Actual text '01/01/2023' and expected text '01/01/2023' are matched 
+
+2022-06-01 20:22:00 - [TEST_STEP][PASSED] - click(findWindowsObject("Ok Button")): Click on element: Object Repository/Ok Button succesfully
+
+2022-06-01 20:22:00 - [MESSAGE][INFO] - Clicking on element: Object Repository/Ok Button
+
+2022-06-01 20:22:00 - [MESSAGE][PASSED] - Click on element: Object Repository/Ok Button succesfully
+
+2022-06-01 20:22:00 - [TEST_STEP][PASSED] - click(findWindowsObject("Edit OrderButton")): Click on element: Object Repository/Edit OrderButton succesfully
+
+2022-06-01 20:22:01 - [MESSAGE][INFO] - Clicking on element: Object Repository/Edit OrderButton
+
+2022-06-01 20:22:02 - [MESSAGE][PASSED] - Click on element: Object Repository/Edit OrderButton succesfully
+
+2022-06-01 20:22:02 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Click CustomerName")): Click on element: Object Repository/Click CustomerName succesfully
+
+2022-06-01 20:22:03 - [MESSAGE][INFO] - Clicking on element: Object Repository/Click CustomerName
+
+2022-06-01 20:22:03 - [MESSAGE][PASSED] - Click on element: Object Repository/Click CustomerName succesfully
+
+2022-06-01 20:22:03 - [TEST_STEP][PASSED] - clearText(findWindowsObject("Object Repository/Edit CustomerName")): Clear text on element: Object Repository/Edit CustomerName succesfully
+
+2022-06-01 20:22:05 - [MESSAGE][PASSED] - Clear text on element: Object Repository/Edit CustomerName succesfully
+
+2022-06-01 20:22:05 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Edit CustomerName"), Edit_Customer): Text Kristen is set
+
+2022-06-01 20:22:11 - [MESSAGE][PASSED] - Text Kristen is set
+
+2022-06-01 20:22:11 - [TEST_STEP][PASSED] - verifyMatch("Kristen", "Kristen", false): Actual text 'Kristen' and expected text 'Kristen' are matched 
+
+2022-06-01 20:22:11 - [MESSAGE][PASSED] - Actual text 'Kristen' and expected text 'Kristen' are matched 
+
+2022-06-01 20:22:11 - [TEST_STEP][PASSED] - click(findWindowsObject("Ok Button")): Click on element: Object Repository/Ok Button succesfully
+
+2022-06-01 20:22:11 - [MESSAGE][INFO] - Clicking on element: Object Repository/Ok Button
+
+2022-06-01 20:22:11 - [MESSAGE][PASSED] - Click on element: Object Repository/Ok Button succesfully
+
+2022-06-01 20:22:11 - [TEST_STEP][PASSED] - click(findWindowsObject("Delete Button")): Click on element: Object Repository/Delete Button succesfully
+
+2022-06-01 20:22:12 - [MESSAGE][INFO] - Clicking on element: Object Repository/Delete Button
+
+2022-06-01 20:22:12 - [MESSAGE][PASSED] - Click on element: Object Repository/Delete Button succesfully
+
+2022-06-01 20:22:12 - [TEST_STEP][PASSED] - click(findWindowsObject("Confirmation page")): Click on element: Object Repository/Confirmation page succesfully
+
+2022-06-01 20:22:13 - [MESSAGE][INFO] - Clicking on element: Object Repository/Confirmation page
+
+2022-06-01 20:22:13 - [MESSAGE][PASSED] - Click on element: Object Repository/Confirmation page succesfully
+
+2022-06-01 20:22:13 - [TEST_STEP][PASSED] - click(findWindowsObject("Yes Button")): Click on element: Object Repository/Yes Button succesfully
+
+2022-06-01 20:22:13 - [MESSAGE][INFO] - Clicking on element: Object Repository/Yes Button
+
+2022-06-01 20:22:13 - [MESSAGE][PASSED] - Click on element: Object Repository/Yes Button succesfully
+
+2022-06-01 20:22:13 - [TEST_STEP][PASSED] - click(findWindowsObject("Close application Button")): Click on element: Object Repository/Close application Button succesfully
+
+2022-06-01 20:22:14 - [MESSAGE][INFO] - Clicking on element: Object Repository/Close application Button
+
+2022-06-01 20:22:14 - [MESSAGE][PASSED] - Click on element: Object Repository/Close application Button succesfully
+
+2022-06-01 20:22:14 - [TEST_STEP][PASSED] - click(findWindowsObject("No Button")): Click on element: Object Repository/No Button succesfully
+
+2022-06-01 20:22:14 - [MESSAGE][INFO] - Clicking on element: Object Repository/No Button
+
+2022-06-01 20:22:14 - [MESSAGE][PASSED] - Click on element: Object Repository/No Button succesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-01 20:21:20 - [TEST_SUITE][PASSED] - ordertestsuite: Test Cases/DesktopApplication/Orderdesktopapp]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

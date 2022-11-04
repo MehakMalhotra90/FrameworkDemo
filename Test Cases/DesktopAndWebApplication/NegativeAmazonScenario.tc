@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NegativeAmazonScenario</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eca72f63-5964-498b-8df4-02e0b0810bdb</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>ce5a2448-814e-490b-86ce-8ed2a574571d</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Testdata/testdata3</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>ce5a2448-814e-490b-86ce-8ed2a574571d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>TestData_Identifier</value>
+      <variableId>f9b7bbea-4e17-446e-8f3d-d98023b98df0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>ce5a2448-814e-490b-86ce-8ed2a574571d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>5a73976f-14d3-4b37-9b31-78c67ee76285</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f9b7bbea-4e17-446e-8f3d-d98023b98df0</id>
+      <masked>true</masked>
+      <name>TestData_Identifier</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a73976f-14d3-4b37-9b31-78c67ee76285</id>
+      <masked>true</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>

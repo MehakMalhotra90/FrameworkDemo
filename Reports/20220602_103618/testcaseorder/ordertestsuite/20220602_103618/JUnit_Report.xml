@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ordertestsuite" time="218.739" tests="3" failures="0" errors="0">
+   <testsuite name="ordertestsuite" tests="3" failures="0" errors="0" time="218.739" skipped="0" timestamp="2022-06-02 10:36:33" hostname="Testing - TXHYD-PC-02.testingxperts.loc" id="Test Suites/testcaseorder/ordertestsuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AjayBezawada\\Katalon Studio\\My First Web UI Project\\Reports\\20220602_103618\\testcaseorder\\ordertestsuite\\20220602_103618"/>
+         <property name="logFiles" value="C:\\Users\\AjayBezawada\\Katalon Studio\\My First Web UI Project\\Reports\\20220602_103618\\testcaseorder\\ordertestsuite\\20220602_103618\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Testing - TXHYD-PC-02.testingxperts.loc"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.61"/>
+         <property name="hostAddress" value="172.16.3.53"/>
+         <property name="sessionId" value="c692920b07dae07ce82550e1c577341c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DesktopAndWebApplication/Orderdesktopapp" time="54.891" classname="Test Cases/DesktopAndWebApplication/Orderdesktopapp" status="PASSED">
+         <system-out><![CDATA[2022-06-02 10:36:33 - [TEST_CASE][PASSED] - Test Cases/DesktopAndWebApplication/Orderdesktopapp: Test Cases/DesktopAndWebApplication/Orderdesktopapp
+
+2022-06-02 10:36:34 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Users\AjayBezawada\Documents\UiPath\Desktop_OrderScenarios_Library\.settings\APK File\Orders.exe", "Orders"): The application at location: C:\Users\AjayBezawada\Documents\UiPath\Desktop_OrderScenarios_Library\.settings\APK File\Orders.exe started.
+
+2022-06-02 10:36:34 - [MESSAGE][INFO] - Starting application C:\Users\AjayBezawada\Documents\UiPath\Desktop_OrderScenarios_Library\.settings\APK File\Orders.exe on the local machine at address http://127.0.0.1:4723
+
+2022-06-02 10:36:36 - [MESSAGE][PASSED] - The application at location: C:\Users\AjayBezawada\Documents\UiPath\Desktop_OrderScenarios_Library\.settings\APK File\Orders.exe started.
+
+2022-06-02 10:36:36 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/New Order Button")): Click on element: Object Repository/New Order Button succesfully
+
+2022-06-02 10:36:37 - [MESSAGE][INFO] - Clicking on element: Object Repository/New Order Button
+
+2022-06-02 10:36:37 - [MESSAGE][PASSED] - Click on element: Object Repository/New Order Button succesfully
+
+2022-06-02 10:36:37 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Customer Name")): Click on element: Object Repository/Customer Name succesfully
+
+2022-06-02 10:36:38 - [MESSAGE][INFO] - Clicking on element: Object Repository/Customer Name
+
+2022-06-02 10:36:39 - [MESSAGE][PASSED] - Click on element: Object Repository/Customer Name succesfully
+
+2022-06-02 10:36:39 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Customer Name"), Customer): Text Kenyon Stuart is set
+
+2022-06-02 10:36:43 - [MESSAGE][PASSED] - Text Kenyon Stuart is set
+
+2022-06-02 10:36:43 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/DesktopApplication/NameCheckpoint"), false): Checkpoint data and Source data are matched
+
+2022-06-02 10:36:44 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+2022-06-02 10:36:44 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Streetname"), Street): Text 73668 East Daniels Way is set
+
+2022-06-02 10:36:49 - [MESSAGE][PASSED] - Text 73668 East Daniels Way is set
+
+2022-06-02 10:36:49 - [TEST_STEP][PASSED] - verifyMatch("73668 East Daniels Way", "73668 East Daniels Way", false): Actual text '73668 East Daniels Way' and expected text '73668 East Daniels Way' are matched 
+
+2022-06-02 10:36:49 - [MESSAGE][PASSED] - Actual text '73668 East Daniels Way' and expected text '73668 East Daniels Way' are matched 
+
+2022-06-02 10:36:49 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/City Name")): Click on element: Object Repository/City Name succesfully
+
+2022-06-02 10:36:50 - [MESSAGE][INFO] - Clicking on element: Object Repository/City Name
+
+2022-06-02 10:36:51 - [MESSAGE][PASSED] - Click on element: Object Repository/City Name succesfully
+
+2022-06-02 10:36:51 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/City Name"), City): Text Thousand Oaks is set
+
+2022-06-02 10:36:55 - [MESSAGE][PASSED] - Text Thousand Oaks is set
+
+2022-06-02 10:36:55 - [TEST_STEP][PASSED] - verifyMatch("Thousands Oaks", "Thousands Oaks", false): Actual text 'Thousands Oaks' and expected text 'Thousands Oaks' are matched 
+
+2022-06-02 10:36:55 - [MESSAGE][PASSED] - Actual text 'Thousands Oaks' and expected text 'Thousands Oaks' are matched 
+
+2022-06-02 10:36:55 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/State Name"), State): Text NE is set
+
+2022-06-02 10:36:59 - [MESSAGE][PASSED] - Text NE is set
+
+2022-06-02 10:36:59 - [TEST_STEP][PASSED] - verifyMatch("NE", "NE", false): Actual text 'NE' and expected text 'NE' are matched 
+
+2022-06-02 10:36:59 - [MESSAGE][PASSED] - Actual text 'NE' and expected text 'NE' are matched 
+
+2022-06-02 10:36:59 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Zip code"), zip): Text 6842 is set
+
+2022-06-02 10:37:03 - [MESSAGE][PASSED] - Text 6842 is set
+
+2022-06-02 10:37:03 - [TEST_STEP][PASSED] - verifyMatch("6842", "6842", false): Actual text '6842' and expected text '6842' are matched 
+
+2022-06-02 10:37:03 - [MESSAGE][PASSED] - Actual text '6842' and expected text '6842' are matched 
+
+2022-06-02 10:37:03 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Select CardName")): Click on element: Object Repository/Select CardName succesfully
+
+2022-06-02 10:37:04 - [MESSAGE][INFO] - Clicking on element: Object Repository/Select CardName
+
+2022-06-02 10:37:04 - [MESSAGE][PASSED] - Click on element: Object Repository/Select CardName succesfully
+
+2022-06-02 10:37:04 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/CardNumber"), CardNo): Text 1330019087 is set
+
+2022-06-02 10:37:09 - [MESSAGE][PASSED] - Text 1330019087 is set
+
+2022-06-02 10:37:09 - [TEST_STEP][PASSED] - verifyMatch("1330019087", "1330019087", false): Actual text '1330019087' and expected text '1330019087' are matched 
+
+2022-06-02 10:37:09 - [MESSAGE][PASSED] - Actual text '1330019087' and expected text '1330019087' are matched 
+
+2022-06-02 10:37:09 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/ExpiryDateOfCard"), ExpDate): Text 01/01/2023 is set
+
+2022-06-02 10:37:13 - [MESSAGE][PASSED] - Text 01/01/2023 is set
+
+2022-06-02 10:37:13 - [TEST_STEP][PASSED] - verifyMatch("01/01/2023", "01/01/2023", false): Actual text '01/01/2023' and expected text '01/01/2023' are matched 
+
+2022-06-02 10:37:13 - [MESSAGE][PASSED] - Actual text '01/01/2023' and expected text '01/01/2023' are matched 
+
+2022-06-02 10:37:13 - [TEST_STEP][PASSED] - click(findWindowsObject("Ok Button")): Click on element: Object Repository/Ok Button succesfully
+
+2022-06-02 10:37:14 - [MESSAGE][INFO] - Clicking on element: Object Repository/Ok Button
+
+2022-06-02 10:37:14 - [MESSAGE][PASSED] - Click on element: Object Repository/Ok Button succesfully
+
+2022-06-02 10:37:14 - [TEST_STEP][PASSED] - click(findWindowsObject("Edit OrderButton")): Click on element: Object Repository/Edit OrderButton succesfully
+
+2022-06-02 10:37:15 - [MESSAGE][INFO] - Clicking on element: Object Repository/Edit OrderButton
+
+2022-06-02 10:37:15 - [MESSAGE][PASSED] - Click on element: Object Repository/Edit OrderButton succesfully
+
+2022-06-02 10:37:15 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Click CustomerName")): Click on element: Object Repository/Click CustomerName succesfully
+
+2022-06-02 10:37:17 - [MESSAGE][INFO] - Clicking on element: Object Repository/Click CustomerName
+
+2022-06-02 10:37:17 - [MESSAGE][PASSED] - Click on element: Object Repository/Click CustomerName succesfully
+
+2022-06-02 10:37:17 - [TEST_STEP][PASSED] - clearText(findWindowsObject("Object Repository/Edit CustomerName")): Clear text on element: Object Repository/Edit CustomerName succesfully
+
+2022-06-02 10:37:19 - [MESSAGE][PASSED] - Clear text on element: Object Repository/Edit CustomerName succesfully
+
+2022-06-02 10:37:19 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Edit CustomerName"), Edit_Customer): Text Kristen is set
+
+2022-06-02 10:37:24 - [MESSAGE][PASSED] - Text Kristen is set
+
+2022-06-02 10:37:24 - [TEST_STEP][PASSED] - verifyMatch("Kristen", "Kristen", false): Actual text 'Kristen' and expected text 'Kristen' are matched 
+
+2022-06-02 10:37:24 - [MESSAGE][PASSED] - Actual text 'Kristen' and expected text 'Kristen' are matched 
+
+2022-06-02 10:37:24 - [TEST_STEP][PASSED] - click(findWindowsObject("Ok Button")): Click on element: Object Repository/Ok Button succesfully
+
+2022-06-02 10:37:24 - [MESSAGE][INFO] - Clicking on element: Object Repository/Ok Button
+
+2022-06-02 10:37:24 - [MESSAGE][PASSED] - Click on element: Object Repository/Ok Button succesfully
+
+2022-06-02 10:37:24 - [TEST_STEP][PASSED] - click(findWindowsObject("Delete Button")): Click on element: Object Repository/Delete Button succesfully
+
+2022-06-02 10:37:26 - [MESSAGE][INFO] - Clicking on element: Object Repository/Delete Button
+
+2022-06-02 10:37:26 - [MESSAGE][PASSED] - Click on element: Object Repository/Delete Button succesfully
+
+2022-06-02 10:37:26 - [TEST_STEP][PASSED] - click(findWindowsObject("Confirmation page")): Click on element: Object Repository/Confirmation page succesfully
+
+2022-06-02 10:37:26 - [MESSAGE][INFO] - Clicking on element: Object Repository/Confirmation page
+
+2022-06-02 10:37:27 - [MESSAGE][PASSED] - Click on element: Object Repository/Confirmation page succesfully
+
+2022-06-02 10:37:27 - [TEST_STEP][PASSED] - click(findWindowsObject("Yes Button")): Click on element: Object Repository/Yes Button succesfully
+
+2022-06-02 10:37:27 - [MESSAGE][INFO] - Clicking on element: Object Repository/Yes Button
+
+2022-06-02 10:37:27 - [MESSAGE][PASSED] - Click on element: Object Repository/Yes Button succesfully
+
+2022-06-02 10:37:27 - [TEST_STEP][PASSED] - click(findWindowsObject("Close application Button")): Click on element: Object Repository/Close application Button succesfully
+
+2022-06-02 10:37:27 - [MESSAGE][INFO] - Clicking on element: Object Repository/Close application Button
+
+2022-06-02 10:37:28 - [MESSAGE][PASSED] - Click on element: Object Repository/Close application Button succesfully
+
+2022-06-02 10:37:28 - [TEST_STEP][PASSED] - click(findWindowsObject("No Button")): Click on element: Object Repository/No Button succesfully
+
+2022-06-02 10:37:28 - [MESSAGE][INFO] - Clicking on element: Object Repository/No Button
+
+2022-06-02 10:37:28 - [MESSAGE][PASSED] - Click on element: Object Repository/No Button succesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DesktopAndWebApplication/Amazonwebtc" time="146.95" classname="Test Cases/DesktopAndWebApplication/Amazonwebtc" status="PASSED">
+         <system-out><![CDATA[2022-06-02 10:37:28 - [TEST_CASE][PASSED] - Test Cases/DesktopAndWebApplication/Amazonwebtc: Test Cases/DesktopAndWebApplication/Amazonwebtc
+
+2022-06-02 10:37:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-02 10:37:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-02 10:37:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-02 10:37:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-02 10:37:32 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+2022-06-02 10:37:35 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+2022-06-02 10:37:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-02 10:37:35 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-02 10:37:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon.com. Spend less. Smile more/a_Hello, Sign in  Account  Lists")): Object: 'Object Repository/Page_Amazon.com. Spend less. Smile more/a_Hello, Sign in  Account  Lists' is clicked on
+
+2022-06-02 10:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.com. Spend less. Smile more/a_Hello, Sign in  Account  Lists' is clicked on
+
+2022-06-02 10:37:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Amazon Sign-In/input_Email or mobile phone number_email"), "testingtx2020@gmail.com"): Text 'testingtx2020@gmail.com' is set on object 'Object Repository/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2022-06-02 10:37:38 - [MESSAGE][PASSED] - Text 'testingtx2020@gmail.com' is set on object 'Object Repository/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2022-06-02 10:37:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402")): Object: 'Object Repository/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402' is clicked on
+
+2022-06-02 10:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402' is clicked on
+
+2022-06-02 10:37:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Amazon Sign-In/input_Forgot your password_password"), "PLGTm/4mhzCFv1nCPynrvg=="): Text ****** has been set on object 'Object Repository/Page_Amazon Sign-In/input_Forgot your password_password'
+
+2022-06-02 10:37:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Amazon Sign-In/input_Forgot your password_password'
+
+2022-06-02 10:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon Sign-In/div_Please Enable Cookies to Continue      _8c8bcd")): Object: 'Object Repository/Page_Amazon Sign-In/div_Please Enable Cookies to Continue      _8c8bcd' is clicked on
+
+2022-06-02 10:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon Sign-In/div_Please Enable Cookies to Continue      _8c8bcd' is clicked on
+
+2022-06-02 10:37:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon Sign-In/div_Sign-In                      testingtx2_9ecf4f")): Object: 'Object Repository/Page_Amazon Sign-In/div_Sign-In                      testingtx2_9ecf4f' is clicked on
+
+2022-06-02 10:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon Sign-In/div_Sign-In                      testingtx2_9ecf4f' is clicked on
+
+2022-06-02 10:37:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon Sign-In/input_Enter your password_signInSubmit")): Object: 'Object Repository/Page_Amazon Sign-In/input_Enter your password_signInSubmit' is clicked on
+
+2022-06-02 10:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon Sign-In/input_Enter your password_signInSubmit' is clicked on
+
+2022-06-02 10:37:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Amazon.com. Spend less. Smile more/input_All_field-keywords"), "Alchemist"): Text 'Alchemist' is set on object 'Object Repository/Page_Amazon.com. Spend less. Smile more/input_All_field-keywords'
+
+2022-06-02 10:38:55 - [MESSAGE][PASSED] - Text 'Alchemist' is set on object 'Object Repository/Page_Amazon.com. Spend less. Smile more/input_All_field-keywords'
+
+2022-06-02 10:38:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon.com. Spend less. Smile more/input_All_nav-search-submit-button")): Object: 'Object Repository/Page_Amazon.com. Spend less. Smile more/input_All_nav-search-submit-button' is clicked on
+
+2022-06-02 10:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.com. Spend less. Smile more/input_All_nav-search-submit-button' is clicked on
+
+2022-06-02 10:39:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon.com  Alchemist/img_Best Seller_s-image")): Object: 'Object Repository/Page_Amazon.com  Alchemist/img_Best Seller_s-image' is clicked on
+
+2022-06-02 10:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.com  Alchemist/img_Best Seller_s-image' is clicked on
+
+2022-06-02 10:39:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_The Alchemist, 25th Anniversary A Fabl_ebcfbb/input_Shipping cost, delivery date, and ord_223673")): Object: 'Object Repository/Page_The Alchemist, 25th Anniversary A Fabl_ebcfbb/input_Shipping cost, delivery date, and ord_223673' is clicked on
+
+2022-06-02 10:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Alchemist, 25th Anniversary A Fabl_ebcfbb/input_Shipping cost, delivery date, and ord_223673' is clicked on
+
+2022-06-02 10:39:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon.com Shopping Cart/span_Orders_nav-cart-icon nav-sprite")): Object: 'Object Repository/Page_Amazon.com Shopping Cart/span_Orders_nav-cart-icon nav-sprite' is clicked on
+
+2022-06-02 10:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.com Shopping Cart/span_Orders_nav-cart-icon nav-sprite' is clicked on
+
+2022-06-02 10:39:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon.com Shopping Cart/i_View fullhistory_hm-icon nav-sprite")): Object: 'Object Repository/Page_Amazon.com Shopping Cart/i_View fullhistory_hm-icon nav-sprite' is clicked on
+
+2022-06-02 10:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.com Shopping Cart/i_View fullhistory_hm-icon nav-sprite' is clicked on
+
+2022-06-02 10:39:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon.com Shopping Cart/a_Sign Out")): Object: 'Object Repository/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on
+
+2022-06-02 10:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on
+
+2022-06-02 10:39:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-02 10:39:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DesktopAndWebApplication/NegativeAmazonScenario" time="16.375" classname="Test Cases/DesktopAndWebApplication/NegativeAmazonScenario" status="PASSED">
+         <system-out><![CDATA[2022-06-02 10:39:55 - [TEST_CASE][PASSED] - Test Cases/DesktopAndWebApplication/NegativeAmazonScenario: Test Cases/DesktopAndWebApplication/NegativeAmazonScenario
+
+2022-06-02 10:39:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-02 10:39:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-02 10:39:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-02 10:39:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-02 10:39:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+2022-06-02 10:40:02 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+2022-06-02 10:40:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-02 10:40:02 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-02 10:40:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon.com. Spend less. Smile more/span_Hello, Sign in")): Object: 'Object Repository/Page_Amazon.com. Spend less. Smile more/span_Hello, Sign in' is clicked on
+
+2022-06-02 10:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.com. Spend less. Smile more/span_Hello, Sign in' is clicked on
+
+2022-06-02 10:40:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Amazon Sign-In/input_Email or mobile phone number_email"), "Damco2020@gmail.com"): Text 'Damco2020@gmail.com' is set on object 'Object Repository/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2022-06-02 10:40:06 - [MESSAGE][PASSED] - Text 'Damco2020@gmail.com' is set on object 'Object Repository/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2022-06-02 10:40:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon Sign-In/div_Sign-In                                _f074ba")): Object: 'Object Repository/Page_Amazon Sign-In/div_Sign-In                                _f074ba' is clicked on
+
+2022-06-02 10:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon Sign-In/div_Sign-In                                _f074ba' is clicked on
+
+2022-06-02 10:40:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402")): Object: 'Object Repository/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402' is clicked on
+
+2022-06-02 10:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402' is clicked on
+
+2022-06-02 10:40:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon Sign-In/div_There was a problem                    _7720a7")): Object: 'Object Repository/Page_Amazon Sign-In/div_There was a problem                    _7720a7' is clicked on
+
+2022-06-02 10:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon Sign-In/div_There was a problem                    _7720a7' is clicked on
+
+2022-06-02 10:40:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon Sign-In/li_We cannot find an account with that emai_8890fc")): Object: 'Object Repository/Page_Amazon Sign-In/li_We cannot find an account with that emai_8890fc' is clicked on
+
+2022-06-02 10:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon Sign-In/li_We cannot find an account with that emai_8890fc' is clicked on
+
+2022-06-02 10:40:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon Sign-In/div_There was a problem                    _7720a7")): Object: 'Object Repository/Page_Amazon Sign-In/div_There was a problem                    _7720a7' is clicked on
+
+2022-06-02 10:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon Sign-In/div_There was a problem                    _7720a7' is clicked on
+
+2022-06-02 10:40:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-02 10:40:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-02 10:36:33 - [TEST_SUITE][PASSED] - ordertestsuite: Test Cases/DesktopAndWebApplication/NegativeAmazonScenario]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

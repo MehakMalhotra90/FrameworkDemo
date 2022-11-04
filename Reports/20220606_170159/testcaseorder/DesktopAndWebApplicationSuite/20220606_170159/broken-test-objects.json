@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Amazon.com  Alchemist/img_Best Seller_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span[3]/div[2]/div[2]/div/div/div/div/div/div/div/div[2]/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//img[@alt\u003d\u0027The Alchemist, 25th Anniversary: A Fable About Following Your Dream\u0027])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220606_170159/testcaseorder/DesktopAndWebApplicationSuite/20220606_170159/Object Repository/Page_Amazon.com  Alchemist/img_Best Seller_s-image_img.png"
+    }
+  ]
+}

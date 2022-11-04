@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Amazon.com  Alchemist/img_Best Seller_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span[3]/div[2]/div[2]/div/div/div/div/div/div/div/div[2]/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//img[@alt\u003d\u0027The Alchemist, 25th Anniversary: A Fable About Following Your Dream\u0027])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220606_160549/testcaseorder/DesktopAndWebApplicationSuite/20220606_160549/Object Repository/Page_Amazon.com  Alchemist/img_Best Seller_s-image_img.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Amazon.com Shopping Cart/a_Sign Out",
+      "brokenLocator": "//a[@onclick\u003d\"$Nav.getNow(\u0027signInRedirect\u0027)(\u0027nav_em_hd_re_signin\u0027, \u0027/gp/flex/sign-out.html?action\u003dsign-out\u0026path\u003d%2Fgp%2Fhomepage.html%3F_encoding%3DUTF8%26ref_%3Dnavm_em_signin\u0026signIn\u003d1\u0026useRedirectOnSuccess\u003d1\u0026ref_\u003dnav_em_signout_0_1_1_60\u0027, \u0027nav_em_hd_clc_signin_0_1_1_60\u0027)\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027hmenu-content\u0027]/ul/li[36]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220606_160549/testcaseorder/DesktopAndWebApplicationSuite/20220606_160549/Object Repository/Page_Amazon.com Shopping Cart/a_Sign Out_idRelative.png"
+    }
+  ]
+}
